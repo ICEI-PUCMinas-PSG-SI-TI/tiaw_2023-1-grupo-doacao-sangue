@@ -123,3 +123,54 @@ span{
   column-gap: 50px;
   row-gap: 30px;
 }
+
+@media screen and (max-width: 1700px) {
+  .firstColum{
+    padding-right: 35px;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .secondColun input{
+    width: 200px;
+  }
+
+  .cadastro{
+    padding: 150px;
+  }
+}
+
+@media screen and (max-width: 1500px) {
+  .secondColun input{
+    width: 200px;
+  }
+
+  .cadastro{
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .firstColum{
+    border: none;
+    margin-bottom: 30px;
+  }
+
+  .secondColun{
+    grid-template-columns: 1fr;
+  }
+  
+  .cadastro{
+    grid-template-columns: 1fr;
+  }
+  
+  .cadastro{
+    padding: 100px 0 0 280px;
+  }
+}
+
+
+
+/* @media(max-width: 852px) {
+  margin: 0 auto;
+} */
