@@ -20,4 +20,4 @@ Doação de sangue.
 (https://miro.com/app/board/uXjVMdb7XEo=/#tpicker-content)
 
 ## Instruções para uso
-Coloque aqui as instruções para acessar a página inicial do projeto (caminho completo do arquivo).
+Abrir inicialmente o "index.html" da pasta "home".
