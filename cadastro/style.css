@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+    font-size: 100%;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.content {
+  width: 100vw;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #412e2e;
+  padding-left: 0rem;
+}
+
+.logo {
+  width: 80px;
+  height: auto;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 150%;
+  height: 100%;
+}
+
+.content .list-menu {
+  width: 600px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.content .list-menu li a{
+  font-family: 'Montserrat', sans-serif;
+  padding-top: 3rem;
+  padding-bottom: 0.85rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: #ffffff;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: all 200ms ease-in;
+}
+
+.content .list-menu li a:hover{
+  background-color: #363030;
+  border-bottom: 4px solid #858282;  
+  color: #ff0202;
+}
+
+input{
+  border-bottom: #363030 1px solid;
+  width: 350px;
+  height: 50px;
+  padding-bottom: 10px;
+  margin-top: 30px;
+}
+
+.cadastro{
+  padding: 40px;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  justify-items: start;
+  align-items: center;
+}
+
+
+.firstColum{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.data{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+  margin-top: 30px;
+}
+
+label{
+  font-size: 13px;
+  color: rgb(118, 118, 118);
+}
+
+.data input{
+  margin: 0;
+}
+
+span{
+  color: #ff0202;
+  text-decoration: underline;
+  margin-top: 20px;
+}
