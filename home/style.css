@@ -19,6 +19,13 @@ html {
     scroll-behavior: smooth;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 /*Menu*/
 .content {
     width: 100vw;
@@ -27,7 +34,6 @@ html {
     justify-content: space-around;
     align-items: center;
     background-color: #412e2e;
-    position: fixed;
     padding-left: 0rem;
 }
 
@@ -72,76 +78,38 @@ html {
 
 /* graficos sangue */
 .graficos-sangue {
-    height: 38vh;
-    background: rgb(249, 203, 221);
-    padding: 100px;
-    width: 100vw;
+    margin: 40px 0 40px 10px;
+    height: 280px;
+    width: 1600px;
+    padding: 0 38px;
+    background: rgba(251, 230, 234, 1);
     line-height: 1.7em;
-
     display: flex;
     flex-direction: row;
     flex-grow: 1;
     flex-wrap: nowrap;
-    justify-content: center;
-    flex-basis: auto;
-    align-items: baseline;
-    gap: 40px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    border-radius: 15px;
 }
 
+.agendeDoacao {
+    align-items: baseline;
+    padding: 50px;
+}
 
 /*seção cards*/
 .cards{
-    height: 80vh;
-    width: 100vw;
-    background-color: rgba(77, 74, 74, 0.8);
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
-    align-content: flex-start;
-    gap: 10px;
-    padding: 20px;
-}
-
-
-/*Botões informações*/
-.btn button {
-    width: 100px;
-    height: 20px;
-    margin: 0 15px;
-    font-family: 'Roboto', sans-serif;
-    cursor: pointer;
-    background-color: #ff4242;
-    border-radius: 20px;
-    color: rgb(0, 0, 0);
-    font-weight: 700;
-    transition: all 400ms ease-in;
-    margin-top: 1rem;
-}
-
-.btn button:hover {
-    border: 1px solid #000000;
-    background-color: hsl(0, 100%, 90%);
-    color: #ff6f6f;
-}
-
-/*footer*/
-footer {
-    height: 25px;
-    background-color: #363030;
-    color: rgb(255, 255, 255);
-    font-size: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 300px;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px;
 }
 
 .redCards{
     background-color: #FBE6EA;
     min-width: 300px;
-    
-
     display: flex;
     border-radius: 15px;
     
@@ -153,9 +121,9 @@ footer {
 }
 
 .cardText h1{
-   width: 190px;
-   font-size: 12px;
-   font-weight: bold;
+    width: 190px;
+    font-size: 12px;
+    font-weight: bold;
 }
 
 .cardText p{
@@ -171,5 +139,62 @@ footer {
 }
 
 #remedios{
-    height: 200px;
+    height: 200px !important;
 }
+    
+    /*footer*/
+    footer {
+        height: 25px;
+        background-color: #363030;
+        color: rgb(255, 255, 255);
+        font-size: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .caledar{
+        width: 273px;
+        height: 211px;
+        background-color: rgba(255, 255, 255, 0.5);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        border-radius: 15px;
+        color: #94A2AB;
+        padding: 30px;
+    }
+
+    .caledar h1{
+        width: 190px;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    
+    .caledar p{
+        width: 200px;
+        font-size: 12px;
+        line-height: 1.5;
+    }
+    
+    .caledar a{
+        color: #E34E48;
+        font-size: 9px;
+        text-decoration: underline;
+    }
+
+    .caledar img{
+     height: 60px;
+    }
+
+    .maps{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    iframe{
+        border-radius: 15px;
+    }
