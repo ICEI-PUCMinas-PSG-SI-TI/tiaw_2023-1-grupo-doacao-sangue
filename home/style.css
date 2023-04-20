@@ -24,7 +24,7 @@ html {
     width: 100vw;
     height: 70px;
     display: flex;
-    justify-content: space-around;
+    justify-content: top;
     align-items: center;
     background-color: #412e2e;
     position: fixed;
