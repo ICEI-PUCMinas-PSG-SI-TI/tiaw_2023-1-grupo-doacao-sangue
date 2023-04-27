@@ -10,10 +10,20 @@ Doação de sangue.
 * Arthur Machado Ferreira
 * João Victor Coelho Martins
 
+## Sprint 1 (15 pontos)
+### Documentação
+- Folha de detalhamento do problema ➕➖
+- Persona(s) ✔️
+- Histórias de usuários prioritárias (pelo menos 3) ❌
+- Wireframes apresentados no vídeo. ✔️
+
+### Observações sobre a apresentação 
+Apresentação no geral foi boa. Pontos de atenção: volume do áudio e maior clareza na apresentação das histórias de usuário (requisitos).
+
 ## Professores responsáveis
 
 * João Caram
-* Romell
+* Gabriel Fonseca
 
 ## Quadro de tarefas
 [Coloque aqui o link para acesso do Kanban do projeto, seja ele no GitHub ou em outra plataforma.]
