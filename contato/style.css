@@ -8,6 +8,7 @@
     background-color: #412e2e;
     position: fixed;
     padding-left: 0rem;
+    
 }
 
 .logo {
@@ -15,7 +16,9 @@
     height: auto;
     cursor: pointer;
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    margin-bottom: 25px;
 }
 
 .logo img {
@@ -75,6 +78,7 @@ section{
     width: 500px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
     border-radius:  16px;
+    margin-top: 60px;
 }
 
 section h2{
@@ -147,23 +151,4 @@ img{
     display: block;
     margin-top: 2rem;
     width: 30%;
-}
-
-@media screen and (max-widht:768px){
-    section{
-        width: 100%;
-        padding: 0;
-    }
-}
-
-@media screen and (max-widht:600px){
-    section{
-        width: 100%;
-    }
-}
-
-@media screen and (max-widht:375px){
-    section{
-        width: 100%;
-    }
 }
