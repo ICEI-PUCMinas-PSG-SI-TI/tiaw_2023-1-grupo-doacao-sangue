@@ -21,4 +21,4 @@ Doação de sangue.
 (https://www.figma.com/file/kU9DbSjE6cCz8BiARwbTfc/Untitled?node-id=0-1&t=6KbFmlh1Boo6o0r6-0)
 
 ## Instruções para uso
-Abrir inicialmente o "index.html" da pasta "home".
+Abrir inicialmente o "home.html" da pasta "home".
