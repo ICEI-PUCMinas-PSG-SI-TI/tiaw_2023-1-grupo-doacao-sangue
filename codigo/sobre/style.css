@@ -1,0 +1,13 @@
+main{
+  width: 80%;
+  text-align: justify;
+  padding: 50px;
+}
+
+img{
+  width: 100%;
+}
+
+li{
+  margin-top: 8px;
+}
