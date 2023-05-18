@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    <!-- Cabeçalho -->
     <header class="content">
         <div class="logo">
             <a href="index.html">
@@ -29,6 +30,8 @@
             </ul>
         </nav>
     </header>
+
+    <!-- Formulário -->
     <main>
         <section>
             <img src="/assets/logo.png" alt="">
@@ -44,6 +47,26 @@
             </form>
         </section>
     </main>
+
+    <!-- Java Script -->
+    <script>
+        const form = document.getElementById("contact-form");
+
+        form.addEventListener("submit", function (event) {
+            event.preventDefault();
+
+            
+            const nome = form.elements["nome"].value;
+            const email = form.elements["Email"].value;
+            const mensagem = form.elements["message"].value;
+
+            console.log("Nome:", nome);
+            console.log("Email:", email);
+            console.log("Mensagem:", mensagem);
+
+            form.reset();
+        });
+    </script>
 </body>
 
 </html>
