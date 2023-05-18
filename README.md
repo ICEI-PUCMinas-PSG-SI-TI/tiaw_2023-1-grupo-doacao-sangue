@@ -20,5 +20,8 @@ Doação de sangue.
 (https://miro.com/app/board/uXjVMdb7XEo=/#tpicker-content)
 (https://www.figma.com/file/kU9DbSjE6cCz8BiARwbTfc/Untitled?node-id=0-1&t=6KbFmlh1Boo6o0r6-0)
 
+## Link do vídeo de apresentação do trabalho, com wireframes, etc
+https://youtu.be/wrAfjmYs8LQ
+
 ## Instruções para uso
 Abrir inicialmente o "home.html" da pasta "home".
