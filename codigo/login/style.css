@@ -25,7 +25,7 @@ div{
 h1{
   margin-bottom: 28px;
   font-size: 18px;
-  color: #94A2AB;
+  color: #BA0C16;
 }
 input{
   width: 60%;
@@ -56,4 +56,9 @@ button:hover{
 img{
   width: 140px;
   margin-bottom: 30px;
+}
+
+a{
+  padding: 28px;
+  color: #BA0C16;
 }
