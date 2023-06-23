@@ -2,6 +2,7 @@ var emailInput = document.querySelector('input[type="text"]');
 var passwordInput = document.querySelector('input[type="password"]');
 var loginButton = document.querySelector('button');
 
+
 // Add an event listener to the button
 loginButton.addEventListener('click', function() {
     // Get the values from the input fields
@@ -17,3 +18,4 @@ loginButton.addEventListener('click', function() {
         alert('Credenciais inválidas. Por favor, tente novamente.');
     }
 });
+
