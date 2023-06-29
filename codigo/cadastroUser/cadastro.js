@@ -35,6 +35,7 @@ entrarButton.addEventListener('click',  function() {
         if(usuario.email == user.email){
             existe = true;
         }
+    window.location.href = '/codigo/login/login.html';
     })
     
     if(existe == true){
