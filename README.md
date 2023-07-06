@@ -15,10 +15,8 @@ Doação de sangue.
 * João Caram
 * Romell
 
-## Quadro de tarefas
-[Coloque aqui o link para acesso do Kanban do projeto, seja ele no GitHub ou em outra plataforma.]
-(https://miro.com/app/board/uXjVMdb7XEo=/#tpicker-content)
-(https://www.figma.com/file/kU9DbSjE6cCz8BiARwbTfc/Untitled?node-id=0-1&t=6KbFmlh1Boo6o0r6-0)
+## Link para o PDF de apresentação do nosso projeto
+https://docs.google.com/presentation/d/e/2PACX-1vTG3w1Jsl34dtBSOyfg1n9Bp1kaAF7_IxnXiuJabHDY510_SIUMRq-XRcvD2Okpz0qwhjyOvXVOH4Dy/pub?start=false&loop=false&delayms=3000
 
 ## Link do vídeo de apresentação do trabalho, com wireframes, etc
 https://youtu.be/wrAfjmYs8LQ
